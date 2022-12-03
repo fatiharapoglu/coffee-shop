@@ -1,1 +1,1 @@
-console.log("oldu mu?");
+(()=>{"use strict";document.querySelector("#content")})();
