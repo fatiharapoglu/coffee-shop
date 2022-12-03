@@ -185,6 +185,10 @@ body {
     padding-bottom: 5px;
 }
 
+.space {
+    padding-bottom: 25px;
+}
+
 .main h2,
 .main h1 {
     text-align: center;
