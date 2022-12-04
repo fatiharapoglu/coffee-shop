@@ -401,3 +401,19 @@ iframe {
     border-radius: 10px;
     margin-bottom: 30px;
 }
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--background-primary); 
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--third-color); 
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--secondary-color); 
+}
