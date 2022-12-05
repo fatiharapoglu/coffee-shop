@@ -6,4 +6,4 @@ Created with CSS, webpack and JS.
 
 [Click for live preview](https://fatiharapoglu.github.io/fettanCoffee)
 
-![RPS](assets/readme.png)
+![RPS](dist/assets/readme.png)
