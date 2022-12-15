@@ -22,11 +22,11 @@ const callContact = () => {
             <h1>Tell us how you feel</h1>
             <form action="#" method="post" autocomplete="off">
                 <label for="name">Name:</label>
-                <input type="text" id="name" name="name">
+                <input type="text" id="name" name="name" placeholder="Fettan">
                 <label for="email">Email:</label>
-                <input type="email" id="email" name="email">
+                <input type="email" id="email" name="email" placeholder="fttn@msn.com">
                 <label for="message">Message:</label>
-                <input id="message" name="message"></input>
+                <input id="message" name="message" placeholder="Your coffee sucks!"></input>
                 <button id="submit" type="submit" value="Submit">Submit</button>
             </form>
             <h1>Our shop location</h1>
