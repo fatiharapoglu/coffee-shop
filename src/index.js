@@ -1,6 +1,6 @@
-import { callHome } from './home.js';
-import { callMenu } from './menu.js';
-import { callContact } from './contact.js';
+import { callHome } from "./home";
+import { callMenu } from "./menu";
+import { callContact } from "./contact";
 
 const htmlDOM = document.querySelector("#content");
 htmlDOM.innerHTML = callHome(); // initial landing page loading
@@ -8,7 +8,7 @@ htmlDOM.innerHTML = callHome(); // initial landing page loading
 const changeTabs = () => {
     let navTabs = htmlDOM.querySelector(".nav").querySelectorAll("a");
     navTabs.forEach ( tab => {
-        tab.addEventListener('click', (event) => {
+        tab.addEventListener("click", (event) => {
             if (event.target.classList.contains("active")) return;
             if (event.target.textContent == "Home") {
                 htmlDOM.innerHTML = callHome();

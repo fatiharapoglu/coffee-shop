@@ -114,11 +114,11 @@ const callMenu = () => {
             <a href="https://www.theodinproject.com/lessons/node-path-javascript-restaurant-page" id="odin">The Odin Project</a> | fatiharapoglu
         </span>
         <a href="https://github.com/fatiharapoglu">
-            <img class="githubIcon" src="assets/GitHub-Mark-Light-120px-plus.png" alt="github-logo">
+            <img class="github-icon" src="assets/GitHub-Mark-Light-120px-plus.png" alt="github-logo">
         </a>
     </div>
 </footer>
-    `
+    `;
     return menuHTML;
 };
 
