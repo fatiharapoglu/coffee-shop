@@ -86,7 +86,7 @@ const callHome = () => {
 <footer class="footer-end">
     <div class="about">
         <span>
-            <a href="https://www.theodinproject.com/lessons/node-path-javascript-restaurant-page" id="odin">The Odin Project</a> | fatiharapoglu
+            <a href="https://www.theodinproject.com/" id="odin">The Odin Project</a> | fatiharapoglu
         </span>
         <a href="https://github.com/fatiharapoglu">
             <img class="github-icon" src="assets/GitHub-Mark-Light-120px-plus.png" alt="github-logo">
