@@ -2,7 +2,6 @@
     "name": "coffee-shop",
     "version": "1.0.0",
     "description": "coffee-shop",
-    "main": "webpack.config.js",
     "scripts": {
         "dev": "npx webpack --watch"
     },
