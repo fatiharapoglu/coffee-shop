@@ -1,9 +1,14 @@
-# Coffee Shop (Restaurant webpack project)
+# Coffee Shop
 
-[The Odin Project](https://www.theodinproject.com/lessons/node-path-javascript-restaurant-page)'s node path javascript restaurant webpack project.
+Created with **HTML**, **CSS** and **JavaScript**.
 
-Created with CSS, webpack and JS.
+⮕ [Live preview](https://fatiharapoglu.github.io/coffee-shop/)
 
-[Click for live preview](https://fatiharapoglu.github.io/fettanCoffee)
+## Helper Dependencies
 
-![RPS](dist/assets/readme.png)
+-   [Webpack](https://webpack.js.org/) for bundling
+-   [FontAwesome](https://fontawesome.com/) Icons
+
+## How It Looks
+
+![ss](./dist/assets/readme.png)
