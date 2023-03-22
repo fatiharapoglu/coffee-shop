@@ -1,17 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&family=Tenali+Ramakrishna&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&family=Tenali+Ramakrishna&display=swap");
 
 :root {
     --primary-color: #d1c8cd;
     --secondary-color: #dd8c8c;
     --third-color: #dd8c8c42;
-    --background-primary: rgba(0, 0, 0, 0.70);
+    --background-primary: rgba(0, 0, 0, 0.7);
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Tenali Ramakrishna', sans-serif;
+    font-family: "Tenali Ramakrishna", sans-serif;
     color: var(--primary-color);
 }
 
@@ -50,7 +50,7 @@ input {
 }
 
 .nav li {
-    transition: color .5s ease-in-out, scale .5s ease-in-out;
+    transition: color 0.5s ease-in-out, scale 0.5s ease-in-out;
 }
 
 .nav li:hover {
@@ -213,7 +213,7 @@ input {
 .region img {
     width: 200px;
     height: 200px;
-    transition: scale .4s ease-in-out;
+    transition: scale 0.4s ease-in-out;
     margin-top: -20px;
 }
 
@@ -236,9 +236,9 @@ button:hover {
 .order img {
     width: 85px;
     height: 40px;
-    transition: opacity .4s ease-in-out;
+    transition: opacity 0.4s ease-in-out;
     border-radius: 10px;
-    opacity: .6;
+    opacity: 0.6;
     object-fit: cover;
 }
 
@@ -330,7 +330,7 @@ footer .about {
     height: 25px;
     padding-left: 10px;
     padding: 0 10px;
-    transition: transform 1s ease-in-out;
+    transition: transform 0.5s ease-in-out;
 }
 
 .github-icon:hover {
@@ -411,13 +411,13 @@ iframe {
 }
 
 ::-webkit-scrollbar-track {
-    background: var(--background-primary); 
+    background: var(--background-primary);
 }
 
 ::-webkit-scrollbar-thumb {
-    background: var(--third-color); 
+    background: var(--third-color);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: var(--secondary-color); 
+    background: var(--secondary-color);
 }
